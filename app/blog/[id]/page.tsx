@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import { Metadata } from 'next';
 
 const getData = async (id: string) => {
   const response = await fetch(
@@ -7,7 +7,7 @@ const getData = async (id: string) => {
       next: {
         revalidate: 60,
       },
-    }
+    },
   );
 
   return response.json();
