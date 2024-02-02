@@ -192,3 +192,22 @@ button {
   display: grid;
   gap: 1rem;
 }
+
+.form {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+hr {
+  margin: 5rem;
+}
+
+input[type='text'],
+textarea {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type='submit'] {
+  padding: 0.5rem 1rem;
+}

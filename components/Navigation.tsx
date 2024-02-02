@@ -16,8 +16,6 @@ export const Navigation = ({ navLinks }: Props) => {
   const pathname = usePathname();
   const session = useSession();
 
-  console.log('session', session);
-
   return (
     <nav className="navigation">
       {navLinks.map((link) => {
